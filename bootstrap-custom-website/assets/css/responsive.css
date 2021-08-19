@@ -1,0 +1,249 @@
+@media (max-width:1030px){
+    /* ==========================
+    Common Css
+    ======================== */
+    h1{
+        font-size:3rem;
+    }
+}
+
+@media (max-width:991px){
+    /* ==========================
+    Common Css
+    ======================== */
+    h2{
+        font-size: 2.575rem;
+        line-height:3.25rem;
+    }
+    p{
+        font-size: 0.9rem;
+        letter-spacing: 0;
+        word-spacing: 0;
+    }
+
+    /* ===========================
+    Home Section
+    ========================== */
+    body, html{
+        overflow-x: hidden;
+    }
+    #home .home-image{
+       margin:auto;
+       width: 80%;
+    } 
+    #home{
+        height: 100%;
+    }
+    #home .home_text{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    #home .home-download-btn{
+        justify-content: center;
+    }
+    .home-image{
+        text-align: center;
+    }
+    .home-img img{
+        max-width:60%;
+    }
+
+    /* ===============================
+    Navbar Css
+    ============================= */
+    .navbar-brand{
+        width:20%;
+    }
+    .navbar-toggler{
+        padding-right: 0;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .navbar-toggler-icon{
+        color: var(--primary-color);
+        font-size: 1.4rem;
+    }
+    .navbar .navbar-nav{
+        background: var(--white-color);
+        border-radius: 0.188rem;
+        text-align: center;
+    }
+    .navbar .navbar-nav .nav-link{
+        padding:0.625rem 1.5rem;
+        color: var(--font-color);
+    }
+
+    /* ===========================
+    Counter Css
+    =========================== */
+    .counter-section .counter-box .counter {
+        font-size: 3rem;
+    }
+    .counter-section .counter-box p {
+        font-size: 1.3rem;
+        margin: 1.1rem 0;
+    }
+
+    /* ==========================
+    Testimonial Slider
+    ======================== */
+    .swiper-slide{
+        width: 50%;
+    }   
+}
+@media (max-width:767px){
+    /* ==========================
+    Common Css
+    ======================== */
+    h2{
+        font-size: 2.375rem;
+        line-height:2.85rem;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    h5{
+        font-size: 1.1rem;
+    }
+    p{
+        font-size: .9rem;
+    }
+
+    /* ==========================
+    Navigation Css
+    ======================== */
+    .navbar-brand{
+        width: 25%;;
+    }
+   
+    /*=========================
+    About-How its Works Css
+    ==========================*/
+    .steps{
+        margin: 0 0 .5rem 0;
+    }
+    #about{
+        justify-content: center;
+    }
+
+    /* ==========================
+    Pricing Card Css
+    ======================== */
+    .active-card{
+        transform: translateY(0%);
+        border-top: 5px solid var(--white-color);
+    }
+
+    /* ==========================
+    Testimonial Slider Css
+    ======================== */
+    .swiper-slide{
+        width: 60%;
+    }  
+
+    /* ==========================
+    Footer Css
+    ======================== */
+    .footer .about-section .logo img{
+        width:25%;
+    }
+}
+@media (max-width:468px) {
+    /* ==========================
+    Common Css
+    ======================== */
+    h2{
+        font-size: 2rem;
+    }
+    h1{
+        font-size: 2rem;
+        line-height: 3.0rem;
+    }
+    .section_heading h1::after{
+        width: 3.5rem;
+    }
+
+    /* ==========================
+    Navigation Css
+    ======================== */
+    .navbar-toggler-icon{
+        margin-right: 1rem;
+    }
+    .navbar-brand{
+        width: 40%;
+        margin-left: 1rem;
+    }
+   /*  .navbar-sticky-on{
+        padding-top: 1rem;
+    } */
+
+    /* ==========================
+    Home Css
+    ======================== */
+    #home .home-download-btn .btn{
+        margin-left: 0;
+        margin: 0 .4rem;
+    }
+   
+    /* ==========================
+    Counter Css
+    ======================== */
+    .icon-box{
+        height: 4rem;
+        width: 4rem;
+    }
+    .icon-box .fas{
+        font-size:1.8rem;
+    }
+    .counter-section .counter-box .counter {
+        font-size: 2rem;
+    }
+    .counter-section .counter-box .counter-qu {
+        font-size: 2rem;
+    }
+    .counter-section .counter-box p {
+        font-size: 1rem;
+        margin:0 0 1rem 0;
+    }
+    /* .pt-5{
+        padding: 0 !important;
+    } */
+   
+    /*========================
+    Testimonial Slider
+    =========================*/
+    .swiper-slide{
+        width: 90%;
+    } 
+
+     /*========================
+    Vidoe section
+    =========================*/
+    #video h3{
+        font-size: 1.7rem;
+    }
+    #video a i {
+        font-size: 1rem;
+    }
+
+    /*========================
+    Contact - Subscribe
+    =========================*/
+    .subscribe-btn{
+       margin-top: .5rem;
+        width: 100%;
+    }
+    #contact h3{
+        line-height: 2rem;
+        font-size: 2rem;
+    }
+
+    /*========================
+    Footer Section
+    =========================*/
+    .footer .about-section .logo img{
+        width: 80%;
+    }
+}
+   
